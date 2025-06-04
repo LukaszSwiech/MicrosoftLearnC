@@ -18,7 +18,7 @@ int currentAssignments = 5;
 
 int[] studentScores = new int[10];
 
-Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Student\t\tExam Score\tOverall\tGrade\t\tExtra Credit\n");
 
 foreach (string student in studentNames)
 {
@@ -40,55 +40,69 @@ foreach (string student in studentNames)
     }
 
     int sumScores = 0;
-    decimal currentStudentScore = 0;
+    int extraGrades = 0;
+    int finalExamScore = 0;
+    int extraGradesScore = 0;
+    decimal currentStudentExtraPoints = 0;
+    decimal currentStudentOverallScore = 0;
+    decimal currentStudentExamScore = 0;
     int extraAssigments = 0;
 
     foreach (int score in studentScores)
     {
         extraAssigments++;
         if (extraAssigments <= currentAssignments)
+        {
             sumScores += score;
+            finalExamScore = sumScores;
+        }
         else
+        {
             sumScores += score / 10;
+            extraGradesScore += score;
+            extraGrades++;
+        }
     }
+    currentStudentExamScore = (decimal)(finalExamScore) / currentAssignments;
+    currentStudentOverallScore = (decimal)(sumScores) / currentAssignments;
+    currentStudentExtraPoints = currentStudentOverallScore - currentStudentExamScore;
+    extraGradesScore /= extraGrades;
 
-    currentStudentScore = (decimal)(sumScores) / currentAssignments;
-
-    if (currentStudentScore >= 97)
+    if (currentStudentOverallScore >= 97)
         currentStudentLetterGrade = "A+";
 
-    else if (currentStudentScore >= 93)
+    else if (currentStudentOverallScore >= 93)
         currentStudentLetterGrade = "A";
 
-    else if (currentStudentScore >= 90)
+    else if (currentStudentOverallScore >= 90)
         currentStudentLetterGrade = "A-";
 
-    else if (currentStudentScore >= 87)
+    else if (currentStudentOverallScore >= 87)
         currentStudentLetterGrade = "B+";
 
-    else if (currentStudentScore >= 83)
+    else if (currentStudentOverallScore >= 83)
         currentStudentLetterGrade = "B";
 
-    else if (currentStudentScore >= 80)
+    else if (currentStudentOverallScore >= 80)
         currentStudentLetterGrade = "B-";
 
-    else if (currentStudentScore >= 77)
+    else if (currentStudentOverallScore >= 77)
         currentStudentLetterGrade = "C+";
 
-    else if (currentStudentScore >= 73)
+    else if (currentStudentOverallScore >= 73)
         currentStudentLetterGrade = "C";
 
-    else if (currentStudentScore >= 70)
+    else if (currentStudentOverallScore >= 70)
         currentStudentLetterGrade = "C-";
 
-    else if (currentStudentScore >= 67)
+    else if (currentStudentOverallScore >= 67)
         currentStudentLetterGrade = "D+";
 
-    else if (currentStudentScore >= 63)
+    else if (currentStudentOverallScore >= 63)
         currentStudentLetterGrade = "D";
 
-    else if (currentStudentScore >= 60)
+    else if (currentStudentOverallScore >= 60)
         currentStudentLetterGrade = "D-";
 
-    Console.WriteLine($"{student}\t\t{currentStudentScore}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{student}\t\t{currentStudentExamScore}\t\t{currentStudentOverallScore}\t{currentStudentLetterGrade}\t\t{extraGradesScore} ({currentStudentExtraPoints} pts)");
 }
