@@ -1,0 +1,15 @@
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.AssemblyInfoInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.AssemblyInfo.cs
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.csproj.CoreCompileInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.sourcelink.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/bin/Debug/net8.0/EvalBoolExpressions
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/bin/Debug/net8.0/EvalBoolExpressions.deps.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/bin/Debug/net8.0/EvalBoolExpressions.runtimeconfig.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/bin/Debug/net8.0/EvalBoolExpressions.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/bin/Debug/net8.0/EvalBoolExpressions.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/refint/EvalBoolExpressions.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/EvalBoolExpressions.genruntimeconfig.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/EvalBoolExpressions/obj/Debug/net8.0/ref/EvalBoolExpressions.dll
