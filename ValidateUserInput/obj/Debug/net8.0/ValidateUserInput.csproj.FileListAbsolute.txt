@@ -1,0 +1,15 @@
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/bin/Debug/net8.0/ValidateUserInput
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/bin/Debug/net8.0/ValidateUserInput.deps.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/bin/Debug/net8.0/ValidateUserInput.runtimeconfig.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/bin/Debug/net8.0/ValidateUserInput.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/bin/Debug/net8.0/ValidateUserInput.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.AssemblyInfoInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.AssemblyInfo.cs
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.csproj.CoreCompileInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.sourcelink.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/refint/ValidateUserInput.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ValidateUserInput.genruntimeconfig.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/ValidateUserInput/obj/Debug/net8.0/ref/ValidateUserInput.dll
