@@ -1,0 +1,15 @@
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/bin/Debug/net8.0/LoopingLogic
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/bin/Debug/net8.0/LoopingLogic.deps.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/bin/Debug/net8.0/LoopingLogic.runtimeconfig.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/bin/Debug/net8.0/LoopingLogic.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/bin/Debug/net8.0/LoopingLogic.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.AssemblyInfoInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.AssemblyInfo.cs
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.csproj.CoreCompileInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.sourcelink.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/refint/LoopingLogic.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/LoopingLogic.genruntimeconfig.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/LoopingLogic/obj/Debug/net8.0/ref/LoopingLogic.dll

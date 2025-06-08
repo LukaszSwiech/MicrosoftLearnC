@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestImproveRenewalRate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa39d726a0401e9ad9bdc8e391d1047a25784e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestImproveRenewalRate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestImproveRenewalRate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

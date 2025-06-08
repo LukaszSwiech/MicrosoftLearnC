@@ -1,0 +1,15 @@
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.AssemblyInfoInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.AssemblyInfo.cs
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.csproj.CoreCompileInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.sourcelink.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/bin/Debug/net8.0/SwitchCase
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/bin/Debug/net8.0/SwitchCase.deps.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/bin/Debug/net8.0/SwitchCase.runtimeconfig.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/bin/Debug/net8.0/SwitchCase.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/bin/Debug/net8.0/SwitchCase.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/refint/SwitchCase.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/SwitchCase.genruntimeconfig.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/SwitchCase/obj/Debug/net8.0/ref/SwitchCase.dll

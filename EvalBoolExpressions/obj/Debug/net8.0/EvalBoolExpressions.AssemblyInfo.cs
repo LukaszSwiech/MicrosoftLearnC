@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EvalBoolExpressions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cab08656e79c710815ce352fe978cface6683086")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa39d726a0401e9ad9bdc8e391d1047a25784e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EvalBoolExpressions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EvalBoolExpressions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

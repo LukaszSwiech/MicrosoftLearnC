@@ -1,0 +1,15 @@
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.AssemblyInfoInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.AssemblyInfo.cs
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.csproj.CoreCompileInputs.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.sourcelink.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/bin/Debug/net8.0/VariableScope
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/bin/Debug/net8.0/VariableScope.deps.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/bin/Debug/net8.0/VariableScope.runtimeconfig.json
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/bin/Debug/net8.0/VariableScope.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/bin/Debug/net8.0/VariableScope.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/refint/VariableScope.dll
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.pdb
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/VariableScope.genruntimeconfig.cache
+/Users/Luk/MSLearn/MicrosoftLearnC/CsharpProjects/VariableScope/obj/Debug/net8.0/ref/VariableScope.dll
