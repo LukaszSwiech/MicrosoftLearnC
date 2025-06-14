@@ -130,42 +130,72 @@ do
         case "2":
             // Display all dogs with a specified characteristic
             string dogCharacteristic = "";
+            string[] dogDescriptionList = new string [8];
 
+            int endOfDescriptionElement = dogCharacteristic.IndexOf(',');
+            int arrayPosition = 0;
+            bool noMatchesDog = true;
+
+            string[] searchingIcons = {". ", ".. ", "..."};
             
             while (dogCharacteristic == "")
             {
-                Console.WriteLine($"\nEnter one desired dog characteristics to search for");
+                Console.WriteLine($"\nEnter one desired dog characteristics, separated by commas, to search for");
                 readResult = Console.ReadLine();
                 if (readResult != null)
                 {
                     dogCharacteristic = readResult.ToLower().Trim();
                 }
             }
-
-            string dogDescription = "";
-            bool noMatchesDog = true;
-
-            for (int i = 0; i < maxPets; i++)
+            
+            do
             {
-                if (ourAnimals[i, 1].Contains("dog"))
+                endOfDescriptionElement = dogCharacteristic.IndexOf(',');
+                if (endOfDescriptionElement == -1)
                 {
-                    dogDescription = ourAnimals[i, 4] + "\n" + ourAnimals[i, 5];
-                    if (dogDescription.Contains(dogCharacteristic))
-                    {
-                        Console.WriteLine($"\nOur dog {ourAnimals[i, 3]} is a match!");
-                        Console.WriteLine(dogDescription);
+                    endOfDescriptionElement = dogCharacteristic.Length;
+                    dogDescriptionList[arrayPosition] = dogCharacteristic.Substring(0, dogCharacteristic.Length).Trim();
+                    break;
+                }
+                dogDescriptionList[arrayPosition] = dogCharacteristic.Substring(0, endOfDescriptionElement).Trim();
+                dogCharacteristic = dogCharacteristic.Remove(0, endOfDescriptionElement + 1).Trim();
+                arrayPosition++;
+            }
+            while (endOfDescriptionElement != -1);
 
-                        noMatchesDog = false;
+            //Array.Sort(dogDescriptionList); you need to use dogDescriptionList[i] != null && dogDescriptionList[i].Trim() != "" intead of arrayPosition to work with sor
+
+            for (int j = 0; j < maxPets; j++)
+            {
+                string tempDogDescription = "";
+                noMatchesDog = true;
+                for (int i = 0; i <= arrayPosition; i++)
+                {
+                    if (ourAnimals[j, 1].Contains("dog"))
+                    {
+                        tempDogDescription = ourAnimals[j, 4] + "\n" + ourAnimals[j, 5];
+                        if (tempDogDescription.Contains(dogDescriptionList[i]))
+                        {
+                            Console.WriteLine($"Our dog {ourAnimals[j, 3]} matches your search for {dogDescriptionList[i]}!");
+                            noMatchesDog = false;
+                        }
                     }
                 }
+                if (!noMatchesDog)
+                    Console.WriteLine(tempDogDescription);
             }
 
             if (noMatchesDog)
             {
-                Console.WriteLine($"None of our dogs are a match found for: {dogCharacteristic}");
+                Console.Write($"None of our dogs are a match found for: ");
+                foreach (string dogDescription in dogDescriptionList)
+                {
+                         Console.Write($"{dogDescription} ");
+
+                }
             }
 
-            Console.WriteLine("Press the Enter key to continue.");
+            Console.WriteLine($"\nPress the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
 
