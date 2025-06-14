@@ -154,7 +154,6 @@ do
                 string tempDogDescription = "";
                 noMatchesDog = true;
 
-
                 foreach (string term in dogDescriptionList)
                 {
                     if (term != null && term.Trim() != "")
