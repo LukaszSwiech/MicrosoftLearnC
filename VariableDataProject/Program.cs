@@ -130,10 +130,7 @@ do
         case "2":
             // Display all dogs with a specified characteristic
             string dogCharacteristic = "";
-            string[] dogDescriptionList = new string [8];
-
             int endOfDescriptionElement = dogCharacteristic.IndexOf(',');
-            int arrayPosition = 0;
             bool noMatchesDog = true;
 
             string[] searchingIcons = {". ", ".. ", "..."};
@@ -147,37 +144,38 @@ do
                     dogCharacteristic = readResult.ToLower().Trim();
                 }
             }
-            
-            do
-            {
-                endOfDescriptionElement = dogCharacteristic.IndexOf(',');
-                if (endOfDescriptionElement == -1)
-                {
-                    endOfDescriptionElement = dogCharacteristic.Length;
-                    dogDescriptionList[arrayPosition] = dogCharacteristic.Substring(0, dogCharacteristic.Length).Trim();
-                    break;
-                }
-                dogDescriptionList[arrayPosition] = dogCharacteristic.Substring(0, endOfDescriptionElement).Trim();
-                dogCharacteristic = dogCharacteristic.Remove(0, endOfDescriptionElement + 1).Trim();
-                arrayPosition++;
-            }
-            while (endOfDescriptionElement != -1);
+           
+            string[] dogDescriptionList = dogCharacteristic.Split(",");
 
-            //Array.Sort(dogDescriptionList); you need to use dogDescriptionList[i] != null && dogDescriptionList[i].Trim() != "" intead of arrayPosition to work with sor
+            Array.Sort(dogDescriptionList);
 
-            for (int j = 0; j < maxPets; j++)
+            for (int i = 0; i < maxPets; i++)
             {
                 string tempDogDescription = "";
                 noMatchesDog = true;
-                for (int i = 0; i <= arrayPosition; i++)
+
+
+                foreach (string term in dogDescriptionList)
                 {
-                    if (ourAnimals[j, 1].Contains("dog"))
+                    if (term != null && term.Trim() != "")
                     {
-                        tempDogDescription = ourAnimals[j, 4] + "\n" + ourAnimals[j, 5];
-                        if (tempDogDescription.Contains(dogDescriptionList[i]))
+                        for (int j = 2; j > -1 ; j--)
+                            {
+                                foreach (string icon in searchingIcons)
+                                {
+                                    Console.Write($"\rsearching our dog {ourAnimals[i, 3]} for {term.Trim()} {icon} {j.ToString()}");
+                                    Thread.Sleep(100);
+                                }
+                                  Console.Write($"\r{new String(' ', Console.BufferWidth)}");
+                            }
+                        if (ourAnimals[i, 1].Contains("dog"))
                         {
-                            Console.WriteLine($"Our dog {ourAnimals[j, 3]} matches your search for {dogDescriptionList[i]}!");
-                            noMatchesDog = false;
+                            tempDogDescription = ourAnimals[i, 4] + "\n" + ourAnimals[i, 5];
+                            if (tempDogDescription.Contains(term))
+                            {
+                                Console.WriteLine($"Our dog {ourAnimals[i, 3]} matches your search for {term}!\n");
+                                noMatchesDog = false;
+                            }
                         }
                     }
                 }
