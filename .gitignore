@@ -1,12 +1,15 @@
+# Build artifacts
+bin/
+obj/
 *.cache
 
-# Folder view configuration files
+# OS files
 .DS_Store
 Desktop.ini
-
-# Thumbnail cache files
 ._*
 Thumbs.db
 
-# Compiled C# files
-*.cs
+# Visual Studio files
+.vs/
+*.user
+*.suo
